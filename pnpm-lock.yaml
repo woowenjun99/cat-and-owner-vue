@@ -2,14 +2,20 @@ lockfileVersion: 5.4
 
 specifiers:
   autoprefixer: ^10.4.13
+  clsx: ^1.2.1
   nuxt: 3.0.0
   postcss: ^8.4.20
+  prettier: ^2.8.1
   tailwindcss: ^3.2.4
+
+dependencies:
+  clsx: 1.2.1
 
 devDependencies:
   autoprefixer: 10.4.13_postcss@8.4.20
   nuxt: 3.0.0
   postcss: 8.4.20
+  prettier: 2.8.1
   tailwindcss: 3.2.4_postcss@8.4.20
 
 packages:
@@ -1372,6 +1378,11 @@ packages:
     resolution: {integrity: sha512-JQHZ2QMW6l3aH/j6xCqQThY/9OH4D/9ls34cgkUBiEeocRTU04tHfKPBsUK1PqZCUQM7GiA0IIXJSuXHI64Kbg==}
     engines: {node: '>=0.8'}
     dev: true
+
+  /clsx/1.2.1:
+    resolution: {integrity: sha512-EcR6r5a8bj6pu3ycsa/E/cKVGuTgZJZdsyUYHOksG/UHIiKfjxzRxYJpyVBwYaQeOvghal9fcc4PidlgzugAQg==}
+    engines: {node: '>=6'}
+    dev: false
 
   /cluster-key-slot/1.1.2:
     resolution: {integrity: sha512-RMr0FhtfXemyinomL4hrWcYJxmX6deFdCxpJzhDttxgO1+bcCnkk+9drydLVDmAMG7NE6aN/fl4F7ucU/90gAA==}
@@ -3720,6 +3731,12 @@ packages:
       nanoid: 3.3.4
       picocolors: 1.0.0
       source-map-js: 1.0.2
+    dev: true
+
+  /prettier/2.8.1:
+    resolution: {integrity: sha512-lqGoSJBQNJidqCHE80vqZJHWHRFoNYsSpP9AjFhlhi9ODCJA541svILes/+/1GM3VaL/abZi7cpFzOpdR9UPKg==}
+    engines: {node: '>=10.13.0'}
+    hasBin: true
     dev: true
 
   /pretty-bytes/6.0.0:
