@@ -3,6 +3,7 @@ import clsx from "clsx";
 </script>
 
 <template>
+  <Navbar />
   <main
     :class="
       clsx(
