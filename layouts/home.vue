@@ -5,12 +5,7 @@ import clsx from "clsx";
 <template>
   <main
     :class="
-      clsx(
-        'flex min-h-screen',
-        'flex-col items-center',
-        'justify-center bg-gradient-to-b',
-        'from-[#FFE2E2] to-[#FFC7C7]'
-      )
+      clsx('min-h-screen bg-gradient-to-b', 'from-[#FFE2E2] to-[#FFC7C7]')
     "
   >
     <slot />
