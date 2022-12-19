@@ -29,7 +29,7 @@ useHead({
   <div class="flex flex-col w-5/6 mx-auto">
     <!-- Image Section -->
     <div class="flex mx-auto h-[300px] mt-4">
-      <nuxt-img alt="home-cat" src="/welcome_cat.svg" />
+      <nuxt-img alt="home-cat" src="/home/welcome_cat.svg" />
     </div>
     <!-- Image Section -->
 
