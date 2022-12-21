@@ -25,7 +25,7 @@ useHead({
 });
 
 // Login Button
-const { data, signIn } = useSession();
+const { signIn } = useSession();
 
 async function LoginButtonHandler() {
   await signIn("google", {
@@ -44,7 +44,7 @@ async function LoginButtonHandler() {
       />
       <h5 class="mb-5 text-center text-3xl font-bold tracking-tight">Login</h5>
       <button
-        :click="LoginButtonHandler"
+        @click.prevent="LoginButtonHandler"
         class="flex mx-auto rounded bg-[#EAEAEA] p-2 text-black hover:bg-[#8785A2] hover:text-white"
       >
         <span class="font-semibold">Continue with Google</span>
